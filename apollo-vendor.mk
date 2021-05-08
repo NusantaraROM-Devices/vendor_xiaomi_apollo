@@ -300,7 +300,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/apollo/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
     vendor/xiaomi/apollo/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
     vendor/xiaomi/apollo/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
-    vendor/xiaomi/apollo/proprietary/vendor/lib/hw/audio.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.kona.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
@@ -406,9 +405,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/apollo/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
-    vendor/xiaomi/apollo/proprietary/vendor/lib/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.hardware.nfc@1.0.so \
-    vendor/xiaomi/apollo/proprietary/vendor/lib/vendor.nxp.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.hardware.nfc@1.1.so \
-    vendor/xiaomi/apollo/proprietary/vendor/lib/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.hardware.nfc@2.0.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.audiohalext@1.0.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib/vndk/libxlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libxlog.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/camera/com.qti.actuator.apollo_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.actuator.apollo_dw9800.so \
@@ -521,7 +517,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/com.qti.feature2.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.stub.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/com.qti.feature2.swmf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.swmf.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/com.xiaomi.plugin.mibokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.xiaomi.plugin.mibokeh.so \
-    vendor/xiaomi/apollo/proprietary/vendor/lib64/hw/audio.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.kona.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/hw/camera.xiaomi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.xiaomi.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
@@ -575,7 +570,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioroute_ext.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
-    vendor/xiaomi/apollo/proprietary/vendor/lib64/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera2ndk_vendor.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/libcamera_dirty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_dirty.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/libcamera_scene.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_scene.so \
@@ -667,9 +661,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/sensors.mius.proximity.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.mius.proximity.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/sensors.touch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.touch.so \
-    vendor/xiaomi/apollo/proprietary/vendor/lib64/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.hardware.nfc@1.0.so \
-    vendor/xiaomi/apollo/proprietary/vendor/lib64/vendor.nxp.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.hardware.nfc@1.1.so \
-    vendor/xiaomi/apollo/proprietary/vendor/lib64/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.hardware.nfc@2.0.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.audiohalext@1.0.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
     vendor/xiaomi/apollo/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
